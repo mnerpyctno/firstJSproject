@@ -1,36 +1,41 @@
-"use strict";       // работа в современном режиме
+const numberOfFilms = +prompt('Сколько фильмов Вы уже посмотрели?', 0);
 
-let number = 4.6; 
-
-console.log(4/0);           
-                    // выведет Infinity = бесконечность
-console.log('string' * 9);
-                    // выводит NaN
-
-const persone = "Alex";
-
-
-
-
-/** УРОК 1
- * 
- *  let number = 5; // изменяемая переменная
-const leftBorderWidth = 1; 
-                    // const - неизменяемая переменная
-
-number = 10;        // изменяем переменную
-console.log(number);// выводим значение переменной
-
-const obj = {      // объект
-    a: 50
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false,
 };
 
-obj.a = 10;         // изменяем значение в объекте
+for (let i = 0; i < 2; i++) {
+    const lastViewedMovie = prompt('Один из последних фильмов?', ''),
+          lastViewedMovieRate = prompt('На сколько оцените его?', '0');
 
-console.log(obj);   // выводим объект
+    if (lastViewedMovie != null && 
+        lastViewedMovieRate != null && 
+        lastViewedMovie != '' && 
+        lastViewedMovieRate != '' && 
+        lastViewedMovie.length < 50) {
+        
+            personalMovieDB.movies[lastViewedMovie] = lastViewedMovieRate;
+            console.log('done');
 
-console.log(Name);  // особенность var - выводится 
-                    // до того, как объявлена
-var Name = 'Ivan';  // устаревшая переменная
+    } else {
+        console.log('Error');
+        i--;
+    }
 
-*/
+}
+
+if (personalMovieDB.count < 10) {
+    console.log('Просмотрено довольно мало фильмов');
+} else if (personalMovieDB.count >= 10 || personalMovieDB.count < 30) {
+    console.log('Вы классический зритель');
+} else if (personalMovieDB.count >= 30) {
+    console.log('Вы киноман');
+} else {
+    console.log('Произошла ошибка');
+}
+
+console.log(personalMovieDB);
