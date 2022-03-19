@@ -26,10 +26,14 @@ document.addEventListener("DOMContentLoaded", () => {
         let newFilm = addInput.value;
         const favorite = addCheckbox.checked;
 
-        if(newFilm ) {
+        if(newFilm) {
 
             if(newFilm.length > 21) {
                 newFilm = `${newFilm.substring(0, 22)}...`;
+            }
+
+            if(favorite) {
+                console.log('Добавляем любимый фильм.');
             }
 
             movieDB.movies.push(newFilm);
@@ -59,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function createMovieList(films, parent) {
         parent.innerHTML = '';   
         sortArr(films);
-            
+
         films.forEach((film, i) => {
             parent.innerHTML += `
                 <li class="promo__interactive-item">${i+1}. ${film}
