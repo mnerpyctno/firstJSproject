@@ -1,3 +1,5 @@
+:gb: [EN](https://github.com/mnerpyctno/firstJSproject/blob/master/README.md) | :poland: [PL](https://github.com/mnerpyctno/firstJSproject/tree/master/docs/pl/README.md) | :belarus: [BE](https://github.com/mnerpyctno/firstJSproject/tree/master/docs/be/README.md) | :ukraine: [UA](https://github.com/mnerpyctno/firstJSproject/tree/master/docs/ua/README.md) | :ru: [RU](https://github.com/mnerpyctno/firstJSproject/tree/master/docs/ru/README.md)
+
 # My first JavaScript project 
 
 My first JavaScript project as part of Ivan Petrichenko's course "A complete course in JavaScript + React - from zero to pro".
