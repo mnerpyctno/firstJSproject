@@ -1,4 +1,4 @@
-:gb: [EN](https://github.com/mnerpyctno/firstJSproject/blob/master/README.md) | :poland: PL | :belarus: BE | :ukraine: UA | :ru: RU
+:gb: [EN](https://github.com/mnerpyctno/firstJSproject/blob/master/README.md) | :poland: [PL](https://github.com/mnerpyctno/firstJSproject/tree/master/docs/pl/README.md) | :belarus: [BE](https://github.com/mnerpyctno/firstJSproject/tree/master/docs/be/README.md) | :ukraine: [UA](https://github.com/mnerpyctno/firstJSproject/tree/master/docs/ua/README.md) | :ru: [RU](https://github.com/mnerpyctno/firstJSproject/tree/master/docs/ru/README.md)
 
 # Мой перый JavaScript проект 
 
