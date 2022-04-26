@@ -2,7 +2,7 @@
 
 # My first JavaScript project 
 
-My first JavaScript project as part of Ivan Petrichenko's course "A complete course in JavaScript + React - from zero to pro".
+My first JavaScript project as part of Ivan Petrichenko's course "A complete course in JavaScript + React - from zero to pro". [DEMO](https://mnerpyctno.github.io/firstJSproject/)
 
 ## What is this project about?
 
