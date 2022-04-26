@@ -14,7 +14,7 @@ Projekt zawiera jedną stronę potencjalnie dużej witryny z filmami, w której 
 * Jak pracować z DOM i obsługiwać eventy
 * Jak sortować tablicy
 
-## Cecha
+## Cechy
 
 1. Dodawanie oglądanych filmów.
 2. Wybór filmów jako ulubionych.
